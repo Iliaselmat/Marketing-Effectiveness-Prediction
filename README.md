@@ -25,12 +25,12 @@ Next, I used logistic regression to predict profitability based on the marketing
 - **Logistic regression nailed profitability predictions.**  
   The logistic regression model had an accuracy of 88.5%, so it did a great job predicting whether the company would be profitable based on marketing spend.
 
-### Conclusion
+- **Multiple Linear Regression (R Version)**  
+   For comparison, I also ran the same multiple linear regression in **R** to check the consistency of the results. 
 
-This project was all about using **regression analysis** and **logistic regression** to make data-driven decisions in marketing. By analyzing real marketing data, I was able to identify which channels give the best return on investment and predict profitability with solid accuracy.
 
 ### What I Used
 - **Python** (with libraries like Pandas, NumPy, Scikit-learn, and Statsmodels) for all the analysis
 - **Excel** for some initial work and quick checks
-
+- **R** : used the library 'readxl'
 
