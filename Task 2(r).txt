@@ -1,0 +1,34 @@
+> library(readxl)
+> data <- read_excel("task 1.xlsx", sheet = "Sheet1")
+
+
+                                                                              
+> model <- lm(sales ~ youtube + facebook + newspaper, data = data)
+> summary(model)
+
+Call:
+lm(formula = sales ~ youtube + facebook + newspaper, data = data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.6212  -0.9316   0.2776   1.4111   3.3701 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 3.505871   0.399647   8.772 1.96e-15 ***
+youtube     0.045235   0.001516  29.830  < 2e-16 ***
+facebook    0.188398   0.009016  20.895  < 2e-16 ***
+newspaper   0.004279   0.006501   0.658    0.511    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.01 on 167 degrees of freedom
+Multiple R-squared:  0.9005,    Adjusted R-squared:  0.8987 
+F-statistic: 503.7 on 3 and 167 DF,  p-value: < 2.2e-16
+
+> confint(model)
+                  2.5 %     97.5 %
+(Intercept)  2.71685879 4.29488320
+youtube      0.04224157 0.04822932
+facebook     0.17059729 0.20619836
+newspaper   -0.00855599 0.01711497
