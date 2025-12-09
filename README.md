@@ -1,7 +1,6 @@
 # Marketing Effectiveness: A Case Study in Regression and Forecasting
 
-## GBU 3311 04 | Fall Semester 2025-2026  
-### Case Study 2: Regression and Forecasting (20% of the Total Grade)
+### Case Study 2: Regression and Forecasting 
 
 ### About the Project
 
